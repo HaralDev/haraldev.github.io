@@ -60,7 +60,7 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Space engineer"
   links:
-      - label: "Mail"
+    - label: "Mail"
       icon: "fab fa fa-envelope-square"
       url: "mailto:{{ site.email }}"
     - label: "Twitter"
