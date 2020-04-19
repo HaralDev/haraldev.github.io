@@ -29,9 +29,9 @@ If you have a question about using Jekyll, start a discussion on the [Jekyll For
 
 ## To Do
 
-- [] import blog posts
-- [] make portfolio
-- [] about me page
-- [] cv pdf
-- [] email link
-- [] header
+- [ ] import blog posts
+- [ ] make portfolio
+- [ ] about me page
+- [ ] cv pdf
+- [ ] email link
+- [ ] header
