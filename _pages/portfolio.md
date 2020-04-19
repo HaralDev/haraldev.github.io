@@ -2,6 +2,7 @@
 permalink: /portfolio/
 title: "Portfolio"
 author_profile: true
+classes: wide
 ---
 
 ## 2019 - Robot swarm communication capability, during visiting research Japan
