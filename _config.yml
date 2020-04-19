@@ -80,7 +80,7 @@ footer:
       url: "mailto:haraldev.pi@gmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/Haraldeon""
+      url: "https://twitter.com/Haraldeon"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/HaralDev"
