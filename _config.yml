@@ -75,6 +75,9 @@ author:
 
 footer:
   links:
+    - label: "Mail"
+      icon: "fab fa fa-envelope-square"
+      url: "mailto:{{ site.email }}"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/Haraldeon""
