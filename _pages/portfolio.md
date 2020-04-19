@@ -21,7 +21,7 @@ With two other master students, a new design of stowing, deployment and locking 
 
 [Deployment test video of one side](https://drive.google.com/open?id=1Rzs7kbBeIu66DuFE1k7yt-7CHqFnUll2){:target="_blank"}
 
-[Deployment animation (courtesy of Nathan van der Wielen](https://youtu.be/cphAKBpUTKw){:target="_blank"}
+[Deployment animation (courtesy of Nathan van der Wielen)](https://youtu.be/cphAKBpUTKw){:target="_blank"}
 
 <p align="center">
     <img  src="/assets/images/Prototype_View.PNG" 
@@ -31,7 +31,7 @@ With two other master students, a new design of stowing, deployment and locking 
 </p>
 
 ## 2016 - Communicational problems in Aviation Operation (Bachelor Thesis)
-At the [Human Factors and Safety research group](https://www.amsterdamuas.com/aviation/subsites/en/aviation/research-programmes/human-factors-and-safety/human-factors-and-safety.html) in Amsterdam, which is part of the Aviation Academy, I developed a tool to analyse accident and incident reports. From a system point of view, the tool would help identify contributing factors of accidents/incidents. The aim of this research was to focus on the kind of interactions where problems would arise, to gain insight in how the form of communication may not be fitting to the information transfer. In addition to problems in human to human interactions, a multitude of problems in human-machine interactions where found. The general recommendation that is made is to focus more on the human aspect, and interpretation, within the aviation operation system; human-centered design.
+At the [Human Factors and Safety research group](https://www.amsterdamuas.com/aviation/subsites/en/aviation/research-programmes/human-factors-and-safety/human-factors-and-safety.html){:target="_blank"} in Amsterdam, which is part of the Aviation Academy, I developed a tool to analyse accident and incident reports. From a system point of view, the tool would help identify contributing factors of accidents/incidents. The aim of this research was to focus on the kind of interactions where problems would arise, to gain insight in how the form of communication may not be fitting to the information transfer. In addition to problems in human to human interactions, a multitude of problems in human-machine interactions where found. The general recommendation that is made is to focus more on the human aspect, and interpretation, within the aviation operation system; human-centered design.
 
 [Communicational problems in Aviation Operation on ResearchGate](https://www.researchgate.net/publication/339018144_Communicational_Problems_in_Aviation_Operation_Bachelor_Thesis){:target="_blank"}
 
