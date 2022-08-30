@@ -9,4 +9,5 @@
 - [] On .text-primary, put a short description about yourself.
 - [] On .home-hero__social-icon-link, fill the href attribute with a link related to your social media account.
 - [] work on project: https://github.com/rammcodes/Dopefolio#projects
-- []
+- [] Fix footers and headers
+- [] Fix sizing of activities in CSC page bottom
