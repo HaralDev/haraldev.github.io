@@ -47,7 +47,14 @@ a {
   color: inherit; }
 
 li {
-  list-style: none; }
+  list-style: inherit; }
+
+ul {
+  list-style: inherit;
+  list-style-type: square;
+}
+  
+
 
 input:focus,
 button:focus,
@@ -659,15 +666,28 @@ textarea {
       .main-footer__lower {
         padding: 3.5rem 0; } }
 
-.skills {
+.skillssw {
   display: flex;
   flex-wrap: wrap; }
-  .skills__skill {
+  .skillssw__skill {
     padding: 1rem 2rem;
     margin-bottom: 1.5rem;
     margin-right: 1.5rem;
     font-size: 1.6rem;
     background: rgba(153, 153, 153, 0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #777; }
+
+.skillseng {
+  display: flex;
+  flex-wrap: wrap; }
+  .skillseng_skill {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    background: rgba(81, 81, 81, 0.2);
     border-radius: 5px;
     font-weight: 600;
     color: #777; }
@@ -702,3 +722,23 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+
+/* https://www.w3schools.com/howto/howto_css_two_columns.asp */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* https://hostpapasupport.com/align-float-images-website/ */
+#hp  {
+  float: right;    
+   margin: 0 0 0 15px;
+  }
