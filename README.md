@@ -11,3 +11,4 @@
 - [] work on project: https://github.com/rammcodes/Dopefolio#projects
 - [] Fix footers and headers
 - [] Fix sizing of activities in CSC page bottom
+- [] Fix " <br><br>" 
