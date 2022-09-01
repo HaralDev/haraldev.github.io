@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Case Study of Project 1</title>
+    <meta name="description" content="Case study page of Project" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+
+    <!-- BEGIN HEADER -->
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/profile.png"
+              alt="Harald Luiks image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Harald Luiks</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- END HEADER -->
+
+
+    <section class="project-dlr-hero">
+      <div class="project-cs-hero__content">
+        <!-- <img src="./assets/png/CSC-1024x500.png"> -->
+        <h1 class="heading-primary">Mars Moon eXploration rover</h1>
+        <div class="project-cs-hero__info">
+          
+          <p class="text-primary">
+            The <a href="https://www.dlr.de/content/en/articles/news/2019/02/20190619_a_rover_for_phobos_and_deimos.html"><u>Mars Moon eXploration (MMX) rover</u></a>
+            is a robotic mission by DLR and CNES (French and German space agencies) to explore the Martian moon of Phobos. For one year, I worked on this mission that will launch in 2024, for my thesis at TU Delft.
+          </p>
+        </div>
+        <div class="project-cs-hero__cta">
+          <a href="#" class="btn btn--bg" target="http://dx.doi.org/10.13140/RG.2.2.19058.94406/1">My ESA workshop presentation</a>
+        </div>
+
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+
+        <!-- PHOTO  -->
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/jpeg/Harald_DLR.JPG"
+              alt="Cubesatcarrier at thermal vacuum facility"
+              class="project-details__showcase-img"
+            />
+          </div>
+
+          <!-- TEXT -->
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                At DLR I wrote my thesis on thermal modeling and testing the Mars Moon eXploration rover. The MMX rover will launch in 2024 with a Japanese spacecraft to Phobos, one of the two moons of Mars. 
+                The rover will be exposed to an extremely tough thermal environment, therefore thermal analysis and testing is vital for mission success. The research focuses on the locomotion system, 
+                which is a complex and dynamic subsystem with the objective to ensure the rover stands up after landing and is able to drive around on Phobos. My objective was to perform thermal modeling and 
+                simulations on the locomotion subsystem of the rover, determine test requirements and boundary conditions, and demonstrate functionality and performance of the locomotion subsystem in the expected
+                thermal-vacuum environment via long duration, automated testing. Some highlights and outputs of the thesis: 
+                <br>  <br> 
+                &#8226; Presentation at <a href="http://dx.doi.org/10.13140/RG.2.2.19058.94406/1"><u>ESA thermal workshop</u></a><br> 
+                &#8226; Developed <a href="https://github.com/HaralDev/GraphtecPython"><u>
+                                <img src="assets/png/github-ico.png" height="20px"> 
+                                Python package</u></a> 
+                                to interface with temperature logger<br>  
+                &#8226; Developed <a href="https://github.com/HaralDev/HMC804x-Python"><u>
+                                <img src="assets/png/github-ico.png" height="20px"> 
+                                Python package</u></a> 
+                                to interface with Rohde & Schwarz power supply suite<br>  
+                &#8226; Developed <a href="https://github.com/HaralDev/TUDelft_thesis_plotting"><u>
+                                <img src="assets/png/github-ico.png" height="20px"> 
+                                Python plotting package</u></a> 
+                                fully compatible with TU Delft Latex template<br>  
+
+                <div class="project-cs-hero__cta">
+                  <a href="#" class="btn btn--bg" target="http://dx.doi.org/10.13140/RG.2.2.15551.53920">Read thesis here</a>
+              </div>
+            </div>
+
+            <!-- SKILLS -->
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Activities</h3>
+              <div class="skillssw">
+                <div class="skillssw__skill">Thermal modelling and simulations</div>
+                <div class="skillssw__skill">Test setup development</div>
+                <div class="skillssw__skill">GSE development</div>
+                <div class="skillssw__skill">Developing thermal testing requirements</div>
+                <div class="skillssw__skill">Automated testing with Python</div>
+                <div class="skillssw__skill">Long duration thermal testing</div>
+                <div class="skillssw__skill">Thermal vacuum testing plans and execution</div>
+              </div>
+            </div>
+
+          <!-- ADDITIONAL MEDIA -->
+          <div class="project-details__desc">
+              <p class="project-details__desc-para">
+                <img src="assets/jpeg/MMX_leg_tvac.JPG" width="60%" alt="The rover locomotion system in the thermal vacuum facility at DLR"> <br> Figure: The rover locomotion system in the thermal vacuum facility at DLR <br> <br>
+
+                <img src="assets/jpeg/TVAC_EGSE_setup.JPG" width="60%" alt="EGSE setup outside TVAC chamber"> <br> Figure: EGSE setup outside TVAC chamber <br>
+            </p>
+          </div>
+          </div>
+        </div>
+        
+      
+
+      </div>
+    </section>
+    
+    
+        <!-- FOOTER -->
+        <footer class="main-footer">
+          <div class="main-container">
+            <div class="main-footer__upper">
+              <div class="main-footer__row main-footer__row-1">
+                <h2 class="heading heading-sm main-footer__heading-sm">
+                  <span>Social</span>
+                </h2>
+                <div class="main-footer__social-cont">
+                  <a href="https://www.linkedin.com/in/luiks/" target="_blank" rel="noreferrer">
+                    <img
+                      class="main-footer__icon"
+                      src="./assets/png/linkedin-ico.png"
+                      alt="icon"
+                    />
+                  </a>
+                  <a href="https://github.com/HaralDev" target="_blank" rel="noreferrer">
+                    <img
+                      class="main-footer__icon"
+                      src="./assets/png/github-ico.png"
+                      alt="icon"
+                    />
+                  </a>
+                  <a href="mailto:haraldev.pi@gmail.com" target="_blank" rel="noreferrer" >
+                    <img
+                      class="main-footer__icon"
+                      src="./assets/png/mail-xxl.png"
+                      alt="icon"
+                    />
+                  </a>
+    
+                </div>
+              </div>
+              <div class="main-footer__row main-footer__row-2">
+                <h4 class="heading heading-sm text-lt">Harald Luiks</h4>
+                <p class="main-footer__short-desc">
+                  Space Systems Engineer with 2 years of space mission experience. 
+                </p>
+              </div>
+            </div>
+    
+            <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+            <div class="main-footer__lower">
+              Made by <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com">Ram Maheshwari</a>
+            </div>
+          </div>
+        </footer>
+        <!-- END FOOTER -->
+
+
+    <script src="./index.js"></script>
+  </body>
+</html>
