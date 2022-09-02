@@ -336,7 +336,7 @@ textarea {
   .contact__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background: white;
-    padding: 4rem;
+    padding: 1rem;    /* Was 4 */
     margin-top: 6rem;
     max-width: 80rem;
     text-align: right;
@@ -347,7 +347,7 @@ textarea {
       .contact__form-container {
         padding: 3rem; } }
   .contact__form-field {
-    margin-bottom: 4rem; }
+    margin-bottom: 1rem; }  /* Was 4 */
     @media only screen and (max-width: 37.5em) {
       .contact__form-field {
         margin-bottom: 3rem; } }
