@@ -9,3 +9,4 @@
 - [] Fix " <br><br>" 
 - [] Add study info
 - [] Add Haraldev page
+- [] Change colour to that gif colour, whale blue

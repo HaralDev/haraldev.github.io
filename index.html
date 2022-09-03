@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Harald Luiks</title>
     <meta name="description" content="Harald Luiks - Space Systems Engineer" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon_io/favicon.ico">
 
     <link rel="stylesheet" href="css/style.css" />
 
@@ -156,7 +157,7 @@
               <p class="about__content-details-para">
                 Welcome, I am a Space Systems Assembly and Integration (AIT) engineer located in Delft, the Netherlands. 
                 With two years space missions experience on three space missions (see portfolio below), I have experience in developing and integrating complicated embedded systems
-                to successful systems in operation. During my Master studies, I was also a part-time freelancer, working as software developer and researcher for various startups. 
+                into successful systems in operation. During my Master studies at TU Delft, I was also a part-time freelancer, working as software developer and researcher for various startups. 
                 My experience gives me a strong background in satellite AIT, software development and space systems engineering. 
               </p>
             </div>
@@ -175,12 +176,11 @@
 
                   <!-- DLR -->
                   <strong>2019 - 2020 - Graduate Researcher at Robotics and Mechatronics, German Aerospace Center (DLR)  </strong> <br>
-                  Worked on <a href="http://dx.doi.org/10.13140/RG.2.2.15551.53920"> <u>Mars Moon eXploration (MMX) rover </u> </a> due to launch in 2024 with JAXA. <a href="./mmxresearch.html" target="_blank"><u>Portfolio here.</u></a> <br><br>
+                  Worked on <a href="http://dx.doi.org/10.13140/RG.2.2.15551.53920"> <u>Mars Moon eXploration (MMX) rover </u> </a> due to launch in 2024 with JAXA. <a href="/dlrmmx.html" target="_blank"><u>Portfolio entry</u></a> <br><br>
                 
                   <!-- HaralDev -->
                   <strong>2018 - 2020 - Freelance developer and researcher at HaralDev  </strong> <br>
-                  During my Master’s at TU Delft, I freelanced for multiple start-ups and companies both as a freelance software developer and researcher. <a href="./haraldev" target="_blank"> <u>See portfolio.</u> </a>
-
+                  During my Master’s at TU Delft, I freelanced for multiple start-ups and companies both as a freelance software developer and researcher. <a href="./haraldev" target="_blank"> <u>Portfolio entry</u> </a>
                 </p>
               </p>
             </div>
@@ -192,10 +192,10 @@
       <div style="width:1200px; margin:0 auto;">
           <br><br><br><br><br><br><br>
           <img src="./assets/png/logo_isispace.png" height="100px" style="opacity:0.7;filter:alpha(opacity=40);">   &emsp; &emsp; &emsp; &emsp; &emsp; 
-          <img src="./assets/png/esa_logo.png" height="100px" style="opacity:0.7;filter:alpha(opacity=40);">        &emsp; &emsp; &emsp;
-          <img src="./assets/png/dlr-logo-black.jpeg" height="100px" style="opacity:0.6;filter:alpha(opacity=40);"> &emsp; &emsp; &emsp;
-          <img src="./assets/png/Logo-codekeeper.svg" height="80px" style="opacity:0.7;filter:alpha(opacity=40);" > &emsp; &emsp; &emsp;
           <img src="./assets/png/startupz-logo.svg" height="80px" style="opacity:0.6;filter:alpha(opacity=40);">    &emsp; &emsp; &emsp;
+          <img src="./assets/png/esa_logo.png" height="100px" style="opacity:0.7;filter:alpha(opacity=40);">        &emsp; &emsp; &emsp;
+          <img src="./assets/svg/DLR_Logo.svg" height="100px" style="opacity:0.6;filter:alpha(opacity=40);">        &emsp; &emsp; &emsp;  &emsp;  &emsp;  &emsp;
+          <img src="./assets/png/Logo-codekeeper.svg" height="80px" style="opacity:0.7;filter:alpha(opacity=40);" > &emsp; &emsp; &emsp;
           <br><br><br><br><br><br><br>
       </div> 
         
@@ -243,6 +243,8 @@
       </div>
 
     </section>
+
+    <!-- PROJECTS -->
     <section id="projects" class="projects sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-bg">
@@ -250,7 +252,8 @@
         </h2>
 
         <div class="projects__content">
-          <div class="projects__row">
+          <!-- ISISPACE ROW -->
+          <div class="projects__row" onclick="location.href='./cubesatcarrier.html';" style="cursor: pointer;">
             <div class="projects__row-img-cont">
               <img
                 src="./assets/jpeg/Harald_NLR_CSC.jpg"
@@ -272,7 +275,8 @@
               >
             </div>
           </div>
-          <div class="projects__row">
+          <!-- DLR ROW -->
+          <div class="projects__row" class="projects__row" onclick="location.href='./dlrmmx.html';" style="cursor: pointer;">
             <div class="projects__row-img-cont">
               <img
                 src="./assets/jpeg/MMX_rover.JPG"
@@ -291,11 +295,12 @@
                 href="./dlrmmx.html"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
+                >Read more</a
               >
             </div>
           </div>
-          <div class="projects__row">
+          <!-- HARALDEV ROW -->
+          <div class="projects__row" class="projects__row" class="projects__row" onclick="location.href='./haraldev.html';" style="cursor: pointer;">
             <div class="projects__row-img-cont">
               <img
                 src="./assets/gif/coding-freak.gif"
@@ -311,10 +316,10 @@
                 backends and perform feasibility studies.
               </p>
               <a
-                href="./project-3.html"
+                href="./haraldev.html"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
-                >Case Study</a
+                >Read more</a
               >
             </div>
           </div>

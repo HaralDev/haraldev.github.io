@@ -110,7 +110,7 @@ textarea {
     top: calc(100% + 1.5rem);
     height: 5px;
     width: 3rem;
-    background: #0062b9;
+    background: #053140 ;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px; }
@@ -162,12 +162,12 @@ textarea {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
   .btn--theme {
-    background: #0062b9;
+    background: #053140 ;
     color: #fff; }
   .btn--theme-inv {
-    color: #0062b9;
+    color: #053140 ;
     background: #fff;
-    border: 2px solid #0062b9;
+    border: 2px solid #053140 ;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
@@ -286,7 +286,13 @@ textarea {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   grid-gap: 5rem;
-  margin-bottom: 11rem; }
+  margin-bottom: 11rem;
+  transition: .3s; }
+  .projects__row:hover {
+    transform: translateY(-3px); 
+    background-color: #ffffffa3;
+    border-style: solid;
+    border-color: #bcbcbc29;}
   @media only screen and (max-width: 56.25em) {
     .projects__row {
       grid-template-columns: 1fr;
@@ -330,7 +336,7 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: #053140;
   background-size: cover;
   background-position: center; }
   .contact__form-container {
@@ -585,14 +591,14 @@ textarea {
     color: #333;
     transition: color .3s; }
     .header__logo-container:hover {
-      color: #0062b9; }
+      color: #053140 ; }
   .header__logo-img-cont {
     width: 5rem;
     height: 5rem;
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: #0062b9; }
+    background: #053140 ; }
     @media only screen and (max-width: 56.25em) {
       .header__logo-img-cont {
         width: 4.5rem;
@@ -622,9 +628,11 @@ textarea {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
-    transition: color .3s; }
+    transition: color .3s; 
+    transition: transform .3s; }
     .header__link:hover {
-      color: #0062b9; }
+      color: #053140 ; 
+      transform: translateY(-3px); }
     @media only screen and (max-width: 56.25em) {
       .header__link {
         padding: 3rem 1.8rem;
@@ -671,7 +679,7 @@ textarea {
     letter-spacing: 2px;
     transition: color .3s; }
     .header__sm-menu-link a:hover {
-      color: #0062b9; }
+      color: #053140 ; }
   .header__sm-menu-link:first-child a {
     border-top: 1px solid #eee; }
   .header__sm-menu-link-last {
