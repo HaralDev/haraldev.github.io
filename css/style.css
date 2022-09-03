@@ -289,7 +289,7 @@ textarea {
   margin-bottom: 11rem;
   transition: .3s; }
   .projects__row:hover {
-    transform: translateY(-3px); 
+    transform: translateY(-8px); 
     background-color: #ffffffa3;
     border-style: solid;
     border-color: #bcbcbc29;}
