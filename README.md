@@ -5,3 +5,4 @@
 
 - [] Add study info
 - [] Add Haraldev page
+- [] add 404 to index.html
