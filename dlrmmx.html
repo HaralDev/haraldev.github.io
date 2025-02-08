@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Harald Luiks - CubesatCarrier</title>
-    <meta name="description" content="Harald Luiks - CubesatCarrier" />
+    <title>Harald Luiks - MMX rover</title>
+    <meta name="description" content="Harald Luiks - MMX rover" />
     <link rel="icon" type="image/x-icon" href="/assets/favicon_io/favicon.ico">
 
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -89,70 +89,93 @@
     <!-- END HEADER -->
 
 
-    <section class="project-csc-hero">
+    <section class="project-dlr-hero">
       <div class="project-cs-hero__content">
         <!-- <img src="./assets/png/CSC-1024x500.png"> -->
-        <h1 class="heading-primary">CubesatCarrier</h1>
+        <h1 class="heading-primary">Mars Moon eXploration rover</h1>
         <div class="project-cs-hero__info">
           
           <p class="text-primary">
-            Cubesatcarrier is a 2M EUR IOD/IOV mission for which I am lead System AIT engineer. It is funded by ESA through the European Commission. 
+            The <a href="https://www.dlr.de/content/en/articles/news/2019/02/20190619_a_rover_for_phobos_and_deimos.html" target="_blank"><u>Mars Moon eXploration (MMX) rover</u></a>
+            is a robotic mission by DLR and CNES (French and German space agencies) to explore the Martian moon of Phobos. For one year, I worked on this mission that will launch in 2024, for my thesis at TU Delft.
           </p>
         </div>
         <div class="project-cs-hero__cta">
-          <a href="https://www.isispace.nl/news/isispace-selected-by-esa-to-provide-iod-iov-service-using-cubesats-in-the-frame-of-european-union-horizon-2020-programme/" class="btn btn--bg" target="_blank">Read Press release</a>
+          <a href="#" class="btn btn--bg" target="http://dx.doi.org/10.13140/RG.2.2.19058.94406/1">My ESA workshop presentation</a>
         </div>
+
       </div>
     </section>
     <section class="project-details">
       <div class="main-container">
+
+        <!-- PHOTO  -->
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
             <img
-              src="./assets/jpeg/Harald_NLR_CSC.jpg"
+              src="./assets/jpeg/Harald_DLR.JPG"
               alt="Cubesatcarrier at thermal vacuum facility"
               class="project-details__showcase-img"
             />
           </div>
+
+          <!-- TEXT -->
           <div class="project-details__content-main">
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                For <a href="https://www.isispace.nl/" title="Go to ISISPACE website" target="_blank"><u>ISISPACE</u> </a> I am responsible for the system assembly, integration and testing (AIT) for cubesatellites for almost 2 years.
-                On a high level, I am tasked with ensuring that system requirements are verified. This involves planning the AIT phase, 
-                preparing AIV/AIT documentation and procedures, coordinating payload integration process, maintaining the VCD, design 
-                and procurement of GSE, and procurement of satellite harnessing. Moreover, the work includes extensive day-to-day logistics, 
-                problem solving, giving input on NRBs, performing investigations. 
-                
+                At the DLR department Robotics and Mechatronics in Munich, I wrote my thesis on thermal modeling and testing the Mars Moon eXploration rover. The MMX rover will launch in 2024 with a Japanese spacecraft to Phobos, one of the two moons of Mars. 
+                The rover will be exposed to an extremely tough thermal environment, therefore thermal analysis and testing is vital for mission success. The research focuses on the locomotion system, 
+                which is a complex and dynamic subsystem with the objective to ensure the rover stands up after landing and is able to drive around on Phobos. My objective was to perform thermal modeling and 
+                simulations on the locomotion subsystem of the rover, determine test requirements and boundary conditions, and demonstrate functionality and performance of the locomotion subsystem in the expected
+                thermal-vacuum environment via long duration, automated testing. Some highlights and outputs of the thesis: 
+                <br>  <br> 
+                &#8226; Presentation at <a href="http://dx.doi.org/10.13140/RG.2.2.19058.94406/1"><u>ESA thermal workshop</u></a><br> 
+                &#8226; Developed <a href="https://github.com/HaralDev/GraphtecPython"><u>
+                                <img src="assets/png/github-ico.png" height="20px"> 
+                                Python package</u></a> 
+                                to interface with temperature logger<br>  
+                &#8226; Developed <a href="https://github.com/HaralDev/HMC804x-Python"><u>
+                                <img src="assets/png/github-ico.png" height="20px"> 
+                                Python package</u></a> 
+                                to interface with Rohde & Schwarz power supply suite<br>  
+                &#8226; Developed <a href="https://github.com/HaralDev/TUDelft_thesis_plotting"><u>
+                                <img src="assets/png/github-ico.png" height="20px"> 
+                                Python plotting package</u></a> 
+                                fully compatible with TU Delft Latex template<br>  
 
-              </p>
-              <p class="project-details__desc-para">
-                I joined this mission just before CDR, so I was heavily involved from early phases of procurement and late design changes. 
-                I was tasked early on with managing the harness design and procurement, and was thus in constant contact with the harness 
-                supplier to ensure we would receive the required parts. Moreover, I was involved in weekly meetings with procurement, effectively 
-                acting as project coordinator, to track flight hardware and GSE to be procured. I planned, procedurised, managed and conducted the: initial 
-                electrical testing and mechanical integration activities; EMC campaign; and EVT campaign. I supported the development of the E2E testing.
-              </p>
+                <div class="project-cs-hero__cta">
+                  <a href="#" class="btn btn--bg" target="http://dx.doi.org/10.13140/RG.2.2.15551.53920">Read thesis here</a>
+              </div>
             </div>
+
+            <!-- SKILLS -->
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Activities</h3>
               <div class="skillssw">
-                <div class="skillssw__skill">Verification plans</div>
-                <div class="skillssw__skill">Procurement of GSE and harnessing</div>
-                <div class="skillssw__skill">Engineer model development and prototyping</div>
-                <div class="skillssw__skill">Problem solving</div>
+                <div class="skillssw__skill">Thermal modelling and simulations</div>
+                <div class="skillssw__skill">Test setup development</div>
                 <div class="skillssw__skill">GSE development</div>
-                <div class="skillssw__skill">Conducting AIV</div>
-                <div class="skillssw__skill">E2E testing</div>
-                <div class="skillssw__skill">Reviews and updates with ESA</div>
-                <div class="skillssw__skill">Vibration testing plans and execution</div>
+                <div class="skillssw__skill">Developing thermal testing requirements</div>
+                <div class="skillssw__skill">Automated testing with Python</div>
+                <div class="skillssw__skill">Long duration thermal testing</div>
                 <div class="skillssw__skill">Thermal vacuum testing plans and execution</div>
-                <div class="skillssw__skill">Electromagnetic compatibility (EMC) testing execution and investigations</div>
-                
               </div>
             </div>
+
+          <!-- ADDITIONAL MEDIA -->
+          <div class="project-details__desc">
+              <p class="project-details__desc-para">
+                <img src="assets/jpeg/MMX_leg_tvac.JPG" width="60%" alt="The rover locomotion system in the thermal vacuum facility at DLR"> <br> Figure: The rover locomotion system in the thermal vacuum facility at DLR <br> <br>
+
+                <img src="assets/jpeg/TVAC_EGSE_setup.JPG" width="60%" alt="EGSE setup outside TVAC chamber"> <br> Figure: EGSE setup outside TVAC chamber <br>
+            </p>
+          </div>
           </div>
         </div>
+        
+      
+
       </div>
     </section>
     
