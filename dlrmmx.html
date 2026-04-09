@@ -12,226 +12,237 @@
     <meta property="og:url" content="https://haraldev.github.io/dlrmmx.html" />
     <meta property="og:image" content="https://haraldev.github.io/assets/jpeg/MMX_leg_tvac.JPG" />
     <link rel="icon" type="image/x-icon" href="/assets/favicon_io/favicon.ico">
-
     <link rel="stylesheet" href="css/style.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   </head>
   <body>
 
-
-    <!-- BEGIN HEADER -->
-    <header class="header">
+    <!-- HEADER -->
+    <header class="header" id="header">
       <div class="header__content">
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
-            <img
-              src="./assets/png/profile.png"
-              alt="Harald Luiks image"
-              class="header__logo-img"
-            />
+            <img src="./assets/png/Harald_profile.jpg" alt="Harald Luiks" class="header__logo-img" />
           </div>
           <span class="header__logo-sub">Harald Luiks</span>
         </div>
         <div class="header__main">
           <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
-            </li>
+            <li class="header__link-wrapper"><a href="./index.html" class="header__link">Home</a></li>
+            <li class="header__link-wrapper"><a href="./index.html#about" class="header__link">About</a></li>
+            <li class="header__link-wrapper"><a href="./index.html#projects" class="header__link">Portfolio</a></li>
+            <li class="header__link-wrapper"><a href="https://github.com/HaralDev/Space-Systems-Engineering-Resources" class="header__link" target="_blank">SSE Resources</a></li>
+            <li class="header__link-wrapper"><a href="./index.html#contact" class="header__link">Contact</a></li>
           </ul>
           <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
+            <img src="./assets/svg/ham-menu.svg" alt="Open menu" class="header__main-ham-menu" />
+            <img src="./assets/svg/ham-menu-close.svg" alt="Close menu" class="header__main-ham-menu-close d-none" />
           </div>
         </div>
       </div>
       <div class="header__sm-menu">
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
-            </li>
+            <li class="header__sm-menu-link"><a href="./index.html">Home</a></li>
+            <li class="header__sm-menu-link"><a href="./index.html#about">About</a></li>
+            <li class="header__sm-menu-link"><a href="./index.html#projects">Portfolio</a></li>
+            <li class="header__sm-menu-link"><a href="https://github.com/HaralDev/Space-Systems-Engineering-Resources" target="_blank">SSE Resources</a></li>
+            <li class="header__sm-menu-link"><a href="./index.html#contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </header>
-    <!-- END HEADER -->
 
+    <!-- PROJECT HERO -->
+    <section class="project-hero project-hero--mmx">
+      <div class="project-hero__content">
+        <a href="./index.html#projects" class="project-hero__back">← Back to Portfolio</a>
+        <span class="project-hero__eyebrow">DLR · CNES · TU Delft · 2019–2020</span>
+        <h1 class="project-hero__title">Mars Moon eXploration Rover</h1>
+        <p class="project-hero__summary">
+          Thermal modeling and testing of the MMX rover locomotion system at DLR Oberpfaffenhofen. Mission status: Launch planned for 2026; currently under review by JAXA/CNES/DLR.
+        </p>
+        <div class="project-hero__cta">
+          <a href="https://www.researchgate.net/publication/344560857" class="btn btn--primary" target="_blank">ESA Workshop Presentation</a>
+          <a href="https://www.researchgate.net/publication/346412922" class="btn btn--ghost" target="_blank">Read Thesis</a>
+        </div>
+      </div>
+    </section>
 
-    <section class="project-dlr-hero">
-      <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Mars Moon eXploration rover</h1>
-        <div class="project-cs-hero__info">
+    <!-- PROJECT CONTENT -->
+    <main class="project-content">
+      <div class="project-content__inner">
 
-          <p class="text-primary">
-            The <a href="https://www.dlr.de/content/en/articles/news/2019/02/20190619_a_rover_for_phobos_and_deimos.html" target="_blank"><u>Mars Moon eXploration (MMX) rover</u></a>
-            is a robotic mission by DLR and CNES (French and German space agencies) to explore the Martian moon of Phobos. For one year, I worked on this mission for my thesis at TU Delft. Mission status: delayed beyond the original 2024 target; currently under review by JAXA/CNES/DLR.
+        <!-- Meta strip -->
+        <div class="project-meta">
+          <div class="project-meta__item">
+            <span class="project-meta__key">Role</span>
+            <span class="project-meta__val">Graduate Researcher (MSc Thesis)</span>
+          </div>
+          <div class="project-meta__item">
+            <span class="project-meta__key">Organisation</span>
+            <span class="project-meta__val">DLR Oberpfaffenhofen</span>
+          </div>
+          <div class="project-meta__item">
+            <span class="project-meta__key">Mission</span>
+            <span class="project-meta__val">MMX — Phobos rover</span>
+          </div>
+          <div class="project-meta__item">
+            <span class="project-meta__key">Period</span>
+            <span class="project-meta__val">2019 – 2020</span>
+          </div>
+        </div>
+
+        <!-- Showcase image -->
+        <figure>
+          <img src="./assets/jpeg/Harald_DLR.JPG" alt="Harald Luiks at DLR during MMX rover thermal testing" />
+          <figcaption>At DLR Robotics &amp; Mechatronics department during MMX rover testing</figcaption>
+        </figure>
+
+        <!-- Overview -->
+        <div class="project-section reveal">
+          <h2 class="project-section__title">Project Overview</h2>
+          <p>
+            At the DLR department Robotics and Mechatronics in Munich, I wrote my thesis on thermal modeling and testing the
+            <a href="https://www.dlr.de/content/en/articles/news/2019/02/20190619_a_rover_for_phobos_and_deimos.html" target="_blank">Mars Moon eXploration (MMX) rover</a>.
+            The MMX rover is planned to travel to Phobos, one of the two moons of Mars, aboard a Japanese spacecraft.
           </p>
+          <p>
+            The rover will be exposed to an extremely tough thermal environment, therefore thermal analysis and testing is vital for mission success.
+            The research focuses on the locomotion system — a complex and dynamic subsystem with the objective to ensure the rover stands up after landing
+            and is able to drive around on Phobos. My objective was to perform thermal modeling and simulations on the locomotion subsystem,
+            determine test requirements and boundary conditions, and demonstrate functionality and performance of the locomotion subsystem in the expected
+            thermal-vacuum environment via long duration, automated testing.
+          </p>
+  
         </div>
-        <div class="project-cs-hero__cta">
-          <a href="http://dx.doi.org/10.13140/RG.2.2.19058.94406/1" class="btn btn--bg" target="_blank">My ESA workshop presentation</a>
+
+        <!-- Publications -->
+        <div class="project-section reveal">
+          <h2 class="project-section__title">Publications</h2>
+          <div class="pub-cards">
+
+            <a class="pub-card" href="https://www.researchgate.net/publication/344560857_Functional_and_thermal_testing_the_Mars_Moon_eXploration_MMX_rover_locomotion_system" target="_blank" rel="noreferrer">
+              <span class="pub-card__type pub-card__type--conf">Conference Paper</span>
+              <h3 class="pub-card__title">Functional and thermal testing the Mars Moon eXploration (MMX) rover locomotion system</h3>
+              <p class="pub-card__venue">European Space Thermal Engineering Workshop 2020 · October 2020</p>
+              <p class="pub-card__authors">Harald Luiks · Ralph Bayer · Martin Reiswich · Maxime Chalon</p>
+              <div class="pub-card__stats">
+                <span class="pub-card__stat"><strong>1</strong> Citation</span>
+                <span class="pub-card__stat"><strong>388</strong> Reads</span>
+              </div>
+            </a>
+
+            <a class="pub-card" href="https://www.researchgate.net/publication/346412922_Developing_thermal_testing_methods_for_a_locomotion_system_of_a_Phobos_rover" target="_blank" rel="noreferrer">
+              <span class="pub-card__type pub-card__type--thesis">MSc Thesis</span>
+              <h3 class="pub-card__title">Developing thermal testing methods for a locomotion system of a Phobos rover</h3>
+              <p class="pub-card__venue">TU Delft · November 2020</p>
+              <p class="pub-card__authors">Harald Luiks · Advisors: Stefano Speretta, Sevket Uludag, Maxime Chalon</p>
+              <div class="pub-card__stats">
+                <span class="pub-card__stat"><strong>842</strong> Reads</span>
+              </div>
+            </a>
+
+          </div>
         </div>
+
+
+        <!-- Open-Source Packages -->
+        <div class="project-section reveal">
+          <h2 class="project-section__title">Open-Source Packages</h2>
+          <p>Three Python packages were developed during this research and published on GitHub.</p>
+          <div class="gh-repos">
+
+            <div class="gh-repo-card">
+              <div class="gh-repo-card__header">
+                <svg class="gh-repo-card__icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8Z"/></svg>
+                <a class="gh-repo-card__name" href="https://github.com/HaralDev/GraphtecPython" target="_blank" rel="noreferrer">GraphtecPython</a>
+              </div>
+              <p class="gh-repo-card__desc">Python package for reading values from a Graphtec GL840 temperature logger via PyVisa. Used for data acquisition during thermal vacuum testing.</p>
+              <div class="gh-repo-card__footer">
+                <span class="gh-repo-card__lang">
+                  <span class="gh-repo-card__lang-dot" style="background:#3572A5"></span>Python
+                </span>
+                <iframe src="https://ghbtns.com/github-btn.html?user=HaralDev&repo=GraphtecPython&type=star&count=true&size=large" frameborder="0" scrolling="0" width="100" height="30" title="GitHub stars — GraphtecPython"></iframe>
+              </div>
+            </div>
+
+            <div class="gh-repo-card">
+              <div class="gh-repo-card__header">
+                <svg class="gh-repo-card__icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8Z"/></svg>
+                <a class="gh-repo-card__name" href="https://github.com/HaralDev/HMC804x-Python" target="_blank" rel="noreferrer">HMC804x-Python</a>
+              </div>
+              <p class="gh-repo-card__desc">Python interface for the Rohde &amp; Schwarz HMC8041, HMC8042, and HMC8043 power supply suite — all models in one class via PyVisa.</p>
+              <div class="gh-repo-card__footer">
+                <span class="gh-repo-card__lang">
+                  <span class="gh-repo-card__lang-dot" style="background:#3572A5"></span>Python
+                </span>
+                <iframe src="https://ghbtns.com/github-btn.html?user=HaralDev&repo=HMC804x-Python&type=star&count=true&size=large" frameborder="0" scrolling="0" width="100" height="30" title="GitHub stars — HMC804x-Python"></iframe>
+              </div>
+            </div>
+
+            <div class="gh-repo-card">
+              <div class="gh-repo-card__header">
+                <svg class="gh-repo-card__icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8Z"/></svg>
+                <a class="gh-repo-card__name" href="https://github.com/HaralDev/TUDelft_thesis_plotting" target="_blank" rel="noreferrer">TUDelft_thesis_plotting</a>
+              </div>
+              <p class="gh-repo-card__desc">Python Matplotlib package that generates plots fully compatible with the TU Delft LaTeX thesis template (Utopia font).</p>
+              <div class="gh-repo-card__footer">
+                <span class="gh-repo-card__lang">
+                  <span class="gh-repo-card__lang-dot" style="background:#3572A5"></span>Python
+                </span>
+                <iframe src="https://ghbtns.com/github-btn.html?user=HaralDev&repo=TUDelft_thesis_plotting&type=star&count=true&size=large" frameborder="0" scrolling="0" width="100" height="30" title="GitHub stars — TUDelft_thesis_plotting"></iframe>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Additional images -->
+        <div class="project-section reveal">
+          <h2 class="project-section__title">Test Setup</h2>
+          <figure>
+            <img src="./assets/jpeg/MMX_leg_tvac.JPG" alt="The rover locomotion system in the thermal vacuum facility at DLR" />
+            <figcaption>The rover locomotion system in the thermal vacuum facility at DLR</figcaption>
+          </figure>
+          <figure>
+            <img src="./assets/jpeg/TVAC_EGSE_setup.JPG" alt="EGSE setup outside the TVAC chamber" />
+            <figcaption>EGSE setup outside the TVAC chamber</figcaption>
+          </figure>
+        </div>
+       
 
       </div>
-    </section>
-    <section class="project-details">
-      <div class="main-container">
+    </main>
 
-        <!-- PHOTO  -->
-        <div class="project-details__content">
-          <div class="project-details__showcase-img-cont">
-            <img
-              src="./assets/jpeg/Harald_DLR.JPG"
-              alt="Harald Luiks at DLR during MMX rover thermal testing"
-              class="project-details__showcase-img"
-            />
+    <!-- FOOTER -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="main-footer__name">Harald Luiks</h4>
+            <p class="main-footer__short-desc">Director of Spacecraft Integration &amp; Testing | Saudi Space Agency | 6+ years across Japan, Germany, Netherlands &amp; Saudi Arabia</p>
           </div>
-
-          <!-- TEXT -->
-          <div class="project-details__content-main">
-            <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
-              <p class="project-details__desc-para">
-                At the DLR department Robotics and Mechatronics in Munich, I wrote my thesis on thermal modeling and testing the Mars Moon eXploration rover. The MMX rover is planned to travel to Phobos, one of the two moons of Mars, aboard a Japanese spacecraft.
-                The rover will be exposed to an extremely tough thermal environment, therefore thermal analysis and testing is vital for mission success. The research focuses on the locomotion system,
-                which is a complex and dynamic subsystem with the objective to ensure the rover stands up after landing and is able to drive around on Phobos. My objective was to perform thermal modeling and
-                simulations on the locomotion subsystem of the rover, determine test requirements and boundary conditions, and demonstrate functionality and performance of the locomotion subsystem in the expected
-                thermal-vacuum environment via long duration, automated testing. Some highlights and outputs of the thesis:
-                <br>  <br>
-                &#8226; Presentation at <a href="http://dx.doi.org/10.13140/RG.2.2.19058.94406/1"><u>ESA thermal workshop</u></a><br>
-                &#8226; Developed <a href="https://github.com/HaralDev/GraphtecPython"><u>
-                                <img src="assets/png/github-ico.png" alt="GitHub" height="20px">
-                                Python package</u></a>
-                                to interface with temperature logger<br>
-                &#8226; Developed <a href="https://github.com/HaralDev/HMC804x-Python"><u>
-                                <img src="assets/png/github-ico.png" alt="GitHub" height="20px">
-                                Python package</u></a>
-                                to interface with Rohde &amp; Schwarz power supply suite<br>
-                &#8226; Developed <a href="https://github.com/HaralDev/TUDelft_thesis_plotting"><u>
-                                <img src="assets/png/github-ico.png" alt="GitHub" height="20px">
-                                Python plotting package</u></a>
-                                fully compatible with TU Delft Latex template<br>
-              </p>
-              <div class="project-cs-hero__cta">
-                <a href="http://dx.doi.org/10.13140/RG.2.2.15551.53920" class="btn btn--bg" target="_blank">Read thesis here</a>
-              </div>
+          <div class="main-footer__row main-footer__row-1">
+            <p class="main-footer__heading-sm">Social</p>
+            <div class="main-footer__social-cont">
+              <a href="https://www.linkedin.com/in/luiks/" class="main-footer__icon-link" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="LinkedIn" />
+              </a>
+              <a href="https://github.com/HaralDev" class="main-footer__icon-link" target="_blank" rel="noreferrer" aria-label="GitHub">
+                <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="GitHub" />
+              </a>
+              <a href="mailto:haraldev.pi@gmail.com" class="main-footer__icon-link" aria-label="Email">
+                <img class="main-footer__icon" src="./assets/png/mail-xxl.png" alt="Email" />
+              </a>
             </div>
-
-            <!-- SKILLS -->
-            <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Activities</h3>
-              <div class="skillssw">
-                <div class="skillssw__skill">Thermal modelling and simulations</div>
-                <div class="skillssw__skill">Test setup development</div>
-                <div class="skillssw__skill">GSE development</div>
-                <div class="skillssw__skill">Developing thermal testing requirements</div>
-                <div class="skillssw__skill">Automated testing with Python</div>
-                <div class="skillssw__skill">Long duration thermal testing</div>
-                <div class="skillssw__skill">Thermal vacuum testing plans and execution</div>
-              </div>
-            </div>
-
-          <!-- ADDITIONAL MEDIA -->
-          <div class="project-details__desc">
-              <p class="project-details__desc-para">
-                <img src="assets/jpeg/MMX_leg_tvac.JPG" width="60%" alt="The rover locomotion system in the thermal vacuum facility at DLR"> <br> Figure: The rover locomotion system in the thermal vacuum facility at DLR <br> <br>
-
-                <img src="assets/jpeg/TVAC_EGSE_setup.JPG" width="60%" alt="EGSE setup outside TVAC chamber"> <br> Figure: EGSE setup outside TVAC chamber <br>
-            </p>
-          </div>
           </div>
         </div>
-
-
-
+        <div class="main-footer__lower">&copy; Harald Luiks</div>
       </div>
-    </section>
-
-
-        <!-- FOOTER -->
-        <footer class="main-footer">
-          <div class="main-container">
-            <div class="main-footer__upper">
-              <div class="main-footer__row main-footer__row-1">
-                <h2 class="heading heading-sm main-footer__heading-sm">
-                  <span>Social</span>
-                </h2>
-                <div class="main-footer__social-cont">
-                  <a href="https://www.linkedin.com/in/luiks/" target="_blank" rel="noreferrer">
-                    <img
-                      class="main-footer__icon"
-                      src="./assets/png/linkedin-ico.png"
-                      alt="LinkedIn"
-                    />
-                  </a>
-                  <a href="https://github.com/HaralDev" target="_blank" rel="noreferrer">
-                    <img
-                      class="main-footer__icon"
-                      src="./assets/png/github-ico.png"
-                      alt="GitHub"
-                    />
-                  </a>
-                  <a href="mailto:haraldev.pi@gmail.com" target="_blank" rel="noreferrer" >
-                    <img
-                      class="main-footer__icon"
-                      src="./assets/png/mail-xxl.png"
-                      alt="Email"
-                    />
-                  </a>
-
-                </div>
-              </div>
-              <div class="main-footer__row main-footer__row-2">
-                <h4 class="heading heading-sm text-lt">Harald Luiks</h4>
-                <p class="main-footer__short-desc">
-                  Director of Spacecraft Integration &amp; Testing | Saudi Space Agency | 6+ years across Japan, Germany, Netherlands &amp; Saudi Arabia
-                </p>
-              </div>
-            </div>
-
-            <div class="main-footer__lower">
-              &copy; Harald Luiks
-            </div>
-          </div>
-        </footer>
-        <!-- END FOOTER -->
-
+    </footer>
 
     <script src="./index.js"></script>
   </body>

@@ -12,221 +12,173 @@
     <meta property="og:url" content="https://haraldev.github.io/cubesatcarrier.html" />
     <meta property="og:image" content="https://haraldev.github.io/assets/jpeg/cubesatcarrier_esa.jpg" />
     <link rel="icon" type="image/x-icon" href="/assets/favicon_io/favicon.ico">
-
     <link rel="stylesheet" href="css/style.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   </head>
   <body>
 
-
-    <!-- BEGIN HEADER -->
-    <header class="header">
+    <!-- HEADER -->
+    <header class="header" id="header">
       <div class="header__content">
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
-            <img
-              src="./assets/png/profile.png"
-              alt="Harald Luiks image"
-              class="header__logo-img"
-            />
+            <img src="./assets/png/Harald_profile.jpg" alt="Harald Luiks" class="header__logo-img" />
           </div>
           <span class="header__logo-sub">Harald Luiks</span>
         </div>
         <div class="header__main">
           <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
-            </li>
+            <li class="header__link-wrapper"><a href="./index.html" class="header__link">Home</a></li>
+            <li class="header__link-wrapper"><a href="./index.html#about" class="header__link">About</a></li>
+            <li class="header__link-wrapper"><a href="./index.html#projects" class="header__link">Portfolio</a></li>
+            <li class="header__link-wrapper"><a href="https://github.com/HaralDev/Space-Systems-Engineering-Resources" class="header__link" target="_blank">SSE Resources</a></li>
+            <li class="header__link-wrapper"><a href="./index.html#contact" class="header__link">Contact</a></li>
           </ul>
           <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
+            <img src="./assets/svg/ham-menu.svg" alt="Open menu" class="header__main-ham-menu" />
+            <img src="./assets/svg/ham-menu-close.svg" alt="Close menu" class="header__main-ham-menu-close d-none" />
           </div>
         </div>
       </div>
       <div class="header__sm-menu">
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
-            </li>
+            <li class="header__sm-menu-link"><a href="./index.html">Home</a></li>
+            <li class="header__sm-menu-link"><a href="./index.html#about">About</a></li>
+            <li class="header__sm-menu-link"><a href="./index.html#projects">Portfolio</a></li>
+            <li class="header__sm-menu-link"><a href="https://github.com/HaralDev/Space-Systems-Engineering-Resources" target="_blank">SSE Resources</a></li>
+            <li class="header__sm-menu-link"><a href="./index.html#contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </header>
-    <!-- END HEADER -->
 
+    <!-- PROJECT HERO -->
+    <section class="project-hero project-hero--csc">
+      <div class="project-hero__content">
+        <a href="./index.html#projects" class="project-hero__back">← Back to Portfolio</a>
+        <span class="project-hero__eyebrow">ESA · ISISPACE · 2021–2023</span>
+        <h1 class="project-hero__title">CubeSatCarrier</h1>
+        <p class="project-hero__summary">
+          A 2M EUR IOD/IOV mission deploying 7 experiments across 2 CubeSats, funded by ESA through the European Commission. I served as lead System AIT Engineer.
+        </p>
+        <div class="project-hero__cta">
+          <a href="https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Shoebox-sized_space_labs_being_launched_by_Vega" class="btn btn--primary" target="_blank">Read ESA Press Release</a>
+        </div>
+      </div>
+    </section>
 
-    <section class="project-csc-hero">
-      <div class="project-cs-hero__content">
-        <!-- <img src="./assets/png/CSC-1024x500.png"> -->
-        <h1 class="heading-primary">CubesatCarrier</h1>
-        <div class="project-cs-hero__info">
-          
-          <p class="text-primary">
-            CubesatCarrier was a 2M EUR IOD/IOV mission for which I served as lead System AIT engineer. It was funded by ESA through the European Commission.
+    <!-- PROJECT CONTENT -->
+    <main class="project-content">
+      <div class="project-content__inner">
+
+        <!-- Meta strip -->
+        <div class="project-meta">
+          <div class="project-meta__item">
+            <span class="project-meta__key">Role</span>
+            <span class="project-meta__val">Lead System AIT Engineer</span>
+          </div>
+          <div class="project-meta__item">
+            <span class="project-meta__key">Organisation</span>
+            <span class="project-meta__val">ISISPACE Group</span>
+          </div>
+          <div class="project-meta__item">
+            <span class="project-meta__key">Customer</span>
+            <span class="project-meta__val">ESA / European Commission</span>
+          </div>
+          <div class="project-meta__item">
+            <span class="project-meta__key">Period</span>
+            <span class="project-meta__val">2021 – 2023</span>
+          </div>
+        </div>
+
+        <!-- Showcase image -->
+        <figure>
+          <img src="./assets/jpeg/Harald_NLR_CSC.jpg" alt="Harald Luiks inspecting CubeSats at the thermal vacuum facility" />
+          <figcaption>CubeSatCarrier at the thermal vacuum facility</figcaption>
+        </figure>
+
+        <!-- Overview -->
+        <div class="project-section reveal">
+          <h2 class="project-section__title">Project Overview</h2>
+          <p>
+            At <a href="https://www.isispace.nl/" target="_blank">ISISPACE</a> I was responsible for the system assembly, integration and testing (AIT) for CubeSatellites for almost 2 years.
+            At a high level, I was tasked with ensuring that system requirements were verified. This involved planning the AIT phase,
+            preparing AIV/AIT documentation and procedures, coordinating the payload integration process, maintaining the VCD, design
+            and procurement of GSE, and procurement of satellite harnessing. The work also included extensive day-to-day logistics,
+            problem solving, giving input on NRBs, and performing investigations.
+          </p>
+          <p>
+            I joined this mission just before CDR, so I was heavily involved from the early phases of procurement and late design changes.
+            I was tasked early on with managing the harness design and procurement, and was in constant contact with the harness
+            supplier to ensure we received the required parts. I was also involved in weekly meetings with procurement, effectively
+            acting as project coordinator, to track flight hardware and GSE to be procured. I planned, procedurised, managed and conducted the:
+            initial electrical testing and mechanical integration activities; EMC campaign; and EVT campaign. I supported the development of the E2E testing.
           </p>
         </div>
-        <div class="project-cs-hero__cta">
-          <a href="https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Shoebox-sized_space_labs_being_launched_by_Vega" class="btn btn--bg" target="_blank">Read ESA Press Release</a>
-        </div>
-      </div>
-    </section>
-    <section class="project-details">
-      <div class="main-container">
-        <div class="project-details__content">
-          <div class="project-details__showcase-img-cont">
-            <img
-              src="./assets/jpeg/Harald_NLR_CSC.jpg"
-              alt="Cubesatcarrier at thermal vacuum facility"
-              class="project-details__showcase-img"
-            />
-          </div>
-          <div class="project-details__content-main">
-            <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
-              <p class="project-details__desc-para">
-                At <a href="https://www.isispace.nl/" title="Go to ISISPACE website" target="_blank"><u>ISISPACE</u></a> I was responsible for the system assembly, integration and testing (AIT) for CubeSatellites for almost 2 years.
-                At a high level, I was tasked with ensuring that system requirements were verified. This involved planning the AIT phase,
-                preparing AIV/AIT documentation and procedures, coordinating the payload integration process, maintaining the VCD, design
-                and procurement of GSE, and procurement of satellite harnessing. The work also included extensive day-to-day logistics,
-                problem solving, giving input on NRBs, and performing investigations.
 
-              </p>
-              <p class="project-details__desc-para">
-                I joined this mission just before CDR, so I was heavily involved from the early phases of procurement and late design changes.
-                I was tasked early on with managing the harness design and procurement, and was in constant contact with the harness
-                supplier to ensure we received the required parts. I was also involved in weekly meetings with procurement, effectively
-                acting as project coordinator, to track flight hardware and GSE to be procured. I planned, procedurised, managed and conducted the: initial
-                electrical testing and mechanical integration activities; EMC campaign; and EVT campaign. I supported the development of the E2E testing.
-              </p>
+        <!-- Press coverage -->
+        <div class="project-section reveal">
+          <h2 class="project-section__title">Press Coverage</h2>
+          <a href="https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Shoebox-sized_space_labs_being_launched_by_Vega" target="_blank" rel="noreferrer" class="press-card">
+            <img src="./assets/jpeg/cubesatcarrier_esa.jpg" alt="Inspecting CubeSats" class="press-card__img" />
+            <div class="press-card__body">
+              <p class="press-card__source">ESA — 6 October 2023</p>
+              <h3 class="press-card__title">Shoebox-sized space labs being launched by Vega</h3>
+              <p class="press-card__excerpt">Among the smallest passengers aboard Europe's Vega launch are also the most ambitious in nature: twin miniaturised laboratories, or CubeSats, for the in-orbit demonstration of disruptive, state-of-the-art space technologies.</p>
             </div>
-            <div class="project-details__desc">
-              <h3 class="project-details__content-title">Press Coverage</h3>
-              <a href="https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Shoebox-sized_space_labs_being_launched_by_Vega" target="_blank" rel="noreferrer" style="text-decoration: none; color: inherit;">
-                <div style="display: flex; gap: 1.5rem; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; margin-top: 1rem; transition: box-shadow 0.2s;" onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,0.12)'" onmouseout="this.style.boxShadow='none'">
-                  <img
-                    src="./assets/jpeg/cubesatcarrier_esa.jpg"
-                    alt="Inspecting CubeSats"
-                    style="width: 220px; min-width: 220px; object-fit: cover;"
-                  />
-                  <div style="padding: 1.2rem 1.2rem 1.2rem 0; display: flex; flex-direction: column; justify-content: center;">
-                    <p style="font-size: 0.95rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #0066cc; margin: 0 0 0.5rem;">ESA — 6 October 2023</p>
-                    <h4 style="font-size: 1.4rem; font-weight: 700; margin: 0 0 0.75rem; line-height: 1.3;">Shoebox-sized space labs being launched by Vega</h4>
-                    <p style="font-size: 1.1rem; color: #555; margin: 0; line-height: 1.6;">Among the smallest passengers aboard Europe's Vega launch are also the most ambitious in nature: twin miniaturised laboratories, or CubeSats, for the in-orbit demonstration of disruptive, state-of-the-art space technologies.</p>
-                  </div>
-                </div>
+          </a>
+        </div>
+
+        <!-- Activities -->
+        <div class="project-section reveal">
+          <h2 class="project-section__title">Activities</h2>
+          <div class="tags">
+            <span class="tag">Verification plans</span>
+            <span class="tag">Procurement of GSE and harnessing</span>
+            <span class="tag">Engineer model development and prototyping</span>
+            <span class="tag">Problem solving</span>
+            <span class="tag">GSE development</span>
+            <span class="tag">Conducting AIV</span>
+            <span class="tag">E2E testing</span>
+            <span class="tag">Reviews and updates with ESA</span>
+            <span class="tag">Vibration testing plans and execution</span>
+            <span class="tag">Thermal vacuum testing plans and execution</span>
+            <span class="tag">Electromagnetic compatibility (EMC) testing</span>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="main-footer__name">Harald Luiks</h4>
+            <p class="main-footer__short-desc">Director of Spacecraft Integration &amp; Testing | Saudi Space Agency | 6+ years across Japan, Germany, Netherlands &amp; Saudi Arabia</p>
+          </div>
+          <div class="main-footer__row main-footer__row-1">
+            <p class="main-footer__heading-sm">Social</p>
+            <div class="main-footer__social-cont">
+              <a href="https://www.linkedin.com/in/luiks/" class="main-footer__icon-link" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="LinkedIn" />
+              </a>
+              <a href="https://github.com/HaralDev" class="main-footer__icon-link" target="_blank" rel="noreferrer" aria-label="GitHub">
+                <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="GitHub" />
+              </a>
+              <a href="mailto:haraldev.pi@gmail.com" class="main-footer__icon-link" aria-label="Email">
+                <img class="main-footer__icon" src="./assets/png/mail-xxl.png" alt="Email" />
               </a>
             </div>
-
-            <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Activities</h3>
-              <div class="skillssw">
-                <div class="skillssw__skill">Verification plans</div>
-                <div class="skillssw__skill">Procurement of GSE and harnessing</div>
-                <div class="skillssw__skill">Engineer model development and prototyping</div>
-                <div class="skillssw__skill">Problem solving</div>
-                <div class="skillssw__skill">GSE development</div>
-                <div class="skillssw__skill">Conducting AIV</div>
-                <div class="skillssw__skill">E2E testing</div>
-                <div class="skillssw__skill">Reviews and updates with ESA</div>
-                <div class="skillssw__skill">Vibration testing plans and execution</div>
-                <div class="skillssw__skill">Thermal vacuum testing plans and execution</div>
-                <div class="skillssw__skill">Electromagnetic compatibility (EMC) testing execution and investigations</div>
-                
-              </div>
-            </div>
           </div>
         </div>
+        <div class="main-footer__lower">&copy; Harald Luiks</div>
       </div>
-    </section>
-    
-    
-        <!-- FOOTER -->
-        <footer class="main-footer">
-          <div class="main-container">
-            <div class="main-footer__upper">
-              <div class="main-footer__row main-footer__row-1">
-                <h2 class="heading heading-sm main-footer__heading-sm">
-                  <span>Social</span>
-                </h2>
-                <div class="main-footer__social-cont">
-                  <a href="https://www.linkedin.com/in/luiks/" target="_blank" rel="noreferrer">
-                    <img
-                      class="main-footer__icon"
-                      src="./assets/png/linkedin-ico.png"
-                      alt="icon"
-                    />
-                  </a>
-                  <a href="https://github.com/HaralDev" target="_blank" rel="noreferrer">
-                    <img
-                      class="main-footer__icon"
-                      src="./assets/png/github-ico.png"
-                      alt="icon"
-                    />
-                  </a>
-                  <a href="mailto:haraldev.pi@gmail.com" target="_blank" rel="noreferrer" >
-                    <img
-                      class="main-footer__icon"
-                      src="./assets/png/mail-xxl.png"
-                      alt="icon"
-                    />
-                  </a>
-    
-                </div>
-              </div>
-              <div class="main-footer__row main-footer__row-2">
-                <h4 class="heading heading-sm text-lt">Harald Luiks</h4>
-                <p class="main-footer__short-desc">
-                  Director of Spacecraft Integration &amp; Testing | Saudi Space Agency | 6+ years across Japan, Germany, Netherlands &amp; Saudi Arabia
-                </p>
-              </div>
-            </div>
-    
-            <div class="main-footer__lower">
-              &copy; Harald Luiks
-            </div>
-          </div>
-        </footer>
-        <!-- END FOOTER -->
-
+    </footer>
 
     <script src="./index.js"></script>
   </body>
